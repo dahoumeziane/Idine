@@ -12,7 +12,7 @@ struct IdineApp: App {
     @StateObject var order = Order()
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(order)
+            MainView().environmentObject(order)
         }
     }
 }
