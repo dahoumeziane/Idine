@@ -12,6 +12,7 @@ struct itemDetails: View {
     let item: MenuItem
     var body: some View {
         VStack{
+            
             ZStack(alignment: .bottomTrailing){
                 Image(item.mainImage)
                     .resizable()
